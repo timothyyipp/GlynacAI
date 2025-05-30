@@ -55,6 +55,11 @@ GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO employees;
 
 - Place the `.env` file in the same directory as `manage.py`.
 - Refer to `.env.example` for the required variables.
+```
+DEBUG=True
+SECRET_KEY=your-secret-key-here
+DATABASE_URL=postgres://employees:welcome@localhost:5432/employee
+```
 
 ---
 
