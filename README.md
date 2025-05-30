@@ -96,3 +96,5 @@ python manage.py runserver
 
 - Open [http://localhost:8000/swagger/](http://localhost:8000/swagger/) in your browser.
 - Log in using your superuser credentials to access the API endpoints.
+- Open [http://localhost:8000/charts/](http://localhost:8000/charts/) in your browser.
+- This is to view the visualization (Pie Chart and Bar Graph)
