@@ -41,7 +41,7 @@ GRANT ALL PRIVILEGES ON DATABASE employee TO employees;
 GRANT ALL PRIVILEGES ON SCHEMA public TO employees;
 ```
 
-If you encounter permission issues, run the following in PGAdmin:
+If you encounter permission issues during migrations, run the following in PGAdmin:
 
 ```sql
 GRANT ALL ON SCHEMA public TO employees;
